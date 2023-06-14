@@ -38,7 +38,7 @@ let shuffleOrder = () => {
     
     setTimeout(()=>{
         checkResponse(order, clickedOrder)
-    }, (order.length * 500) + 3000)
+    }, (order.length * 800) + 1000)
 }
 
 start.addEventListener('click',()=>{
